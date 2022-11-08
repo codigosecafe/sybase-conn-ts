@@ -1,0 +1,1 @@
+export type OperationReturnProtocols = { success: boolean };
