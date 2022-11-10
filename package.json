@@ -1,12 +1,12 @@
 {
     "name": "sybase-conn-ts",
-    "version": "1.0.0",
+    "version": "1.2.0",
     "description": "Um wrapper node.js simples em torno de um aplicativo java/jconnect que fornece acesso fácil aos bancos de dados Sybase sem ter que instalar odbc ou freetds.",
     "main": "module/index.js",
     "types": "module/index.d.ts",
     "sideEffects": false,
     "scripts": {
-        "clean": "rimraf prepublish",
+        "clean": "rimraf module",
         "build": "npm run clean && tsc",
         "test": "jest",
         "prepublish": "npm run test && npm run build"
